@@ -6,7 +6,7 @@ int main(){
     // For
     for(i = 1; i <= 100; i += 2)
         printf("%d, ", i);
-    
+
     printf("\n\n");
 
     // While
