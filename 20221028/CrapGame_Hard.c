@@ -4,7 +4,6 @@
 /*雙人對賭輸入9顯示得分板 先獲得三分就贏了*/
 
 int main(){
-    int notend =1;
     int player,player1=0,player2=0;
     
     do{
