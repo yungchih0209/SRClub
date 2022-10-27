@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h> /* 亂數相關函數 */
 #include <time.h>   /* 時間相關函數 */
+/*雙人對賭輸入1*顯示得分板*/
 
 int main(){
     int notend =1;
@@ -8,8 +9,8 @@ int main(){
         /* 設定亂數種子 */
         srand( time(NULL) );
         /* 產生亂數 */
-        int first = rand()%6 + 1;;
-        int second =rand()%6 + 1;;
+        int first = rand()%6 + 1;
+        int second =rand()%6 + 1;
         int sum =first+second;
 
         switch(sum) {
