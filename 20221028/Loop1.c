@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /*使用迴圈輸出 1 到 100 之間的奇數。*/
 int main(){
     int i;

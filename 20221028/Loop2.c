@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /*輸出 300 到 500 之間可以被 3 與 11 整除的整數。*/
 int main(){
     int i;
