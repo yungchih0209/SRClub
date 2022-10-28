@@ -34,7 +34,7 @@ int main(){
                     printf("沒分可扣了 你超爛\n");
                     break;
                 }
-                (player==1)?player1-1:player2-1;
+                (player==1)?player1--:player2--;
                 break;
 			case 4:
 			case 5:
@@ -47,7 +47,7 @@ int main(){
 			case 7:
 			case 11:
 				printf("骰到%d\n你贏了! 玩家%d加一分\n",sum,player);
-                (player==1)?player1+1:player2+1;
+                (player==1)?player1++:player2++;
                 break;
 		}
         if(player1==3||player2==3){
