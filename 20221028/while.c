@@ -1,6 +1,5 @@
 #include <stdio.h>
 /*輸入一個整數 N,d ，輸出0到N的等差數列。*/
-/*使用DoWhile使最後不會印出逗號*/
 
 int main(){
     int n,d;
